@@ -22,7 +22,7 @@ Before contributing, please note that
 - there's nothing more
 - do you want something?
 
-More information in (CONTRIBUTING.md)[./CONTRIBUTING.md]
+More information in [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## License
 LGPL-3.0 or later
