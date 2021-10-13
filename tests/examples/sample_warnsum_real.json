@@ -1,0 +1,18 @@
+{
+    "WTS": {
+        "name": "Thunderstorm Warning",
+        "code": "WTS",
+        "actionCode": "EXTEND",
+        "issueTime": "2021-10-13T13:28:00+08:00",
+        "expireTime": "2021-10-13T18:00:00+08:00",
+        "updateTime": "2021-10-13T15:45:00+08:00"
+    },
+    "WTCSGNL": {
+        "name": "Tropical Cyclone Warning Signal",
+        "code": "TC3",
+        "actionCode": "ISSUE",
+        "type": "Strong Wind Signal No. 3",
+        "issueTime": "2021-10-13T16:40:00+08:00",
+        "updateTime": "2021-10-13T16:40:00+08:00"
+    }
+}
