@@ -142,3 +142,7 @@ cython_debug/
 .idea/
 .vs/
 .vsc/
+
+# KDE
+.kdev4/
+*.kate-swp
