@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "hwa"
+version = "0.1.0"
+description = ""
+authors = ["Sophie Cheung <me@kcomain.dev>"]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/kcomain/hwa/issues"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+pytest = "^6.2.5"
+requests = "^2.26.0"
+aiohttp = "^3.7.4"
+smopy = {version = "^0.0.7", optional = true, extras = ["map"]}
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.extras]
+map = ['smopy']
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
