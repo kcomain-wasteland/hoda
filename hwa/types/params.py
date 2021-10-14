@@ -15,6 +15,21 @@
 #  You should have received a copy of the GNU Lesser General Public License
 #  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
+import enum
 import typing
 
-LANG = typing.Literal['en', 'tc', 'sc']
+
+class Language(enum.Enum):
+    """Enumeration of the languages accepted by the API"""
+
+    #: English
+    English = "en"
+
+    #: Traditional Chinese
+    TradChinese = "tc"
+
+    #: Simplified Chinese
+    SimpChinese = "sc"
+
+
+_LANG = typing.Optional[typing.Union[Language, str]]

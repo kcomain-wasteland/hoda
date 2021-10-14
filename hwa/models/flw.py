@@ -15,9 +15,12 @@
 #  You should have received a copy of the GNU Lesser General Public License
 #  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from ..types.payloads import LocalWeatherForecastPayload
+from ..types import LocalWeatherForecastPayload
 
 
 class LocalWeatherForecast:
+    """Data model containing data of the current local weather forecast.
+    """
+
     def __init__(self, payload: LocalWeatherForecastPayload):
         pass

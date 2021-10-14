@@ -16,7 +16,9 @@
 #  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import requests
-import typing
+
+from .models import LocalWeatherForecast
+from .types.params import Language, _LANG
 
 
 class Weather:
@@ -30,16 +32,17 @@ class Weather:
 
     The default language is English.
 
-    :param lang: Language
+    :param lang: Language, see :class:`hwa.types.Language`
     """
 
     BASE: str = "https://data.weather.gov.hk/weatherAPI/opendata/weather.php"
+    lang: _LANG = "en"
 
-    def __init__(self, lang: typing.Optional[str] = "en") -> None:
+    def __init__(self, lang: _LANG = "en") -> None:
         self.lang = lang
         return
 
-    def forecast_local(self, lang=None):
+    def forecast_local(self, lang=None) -> LocalWeatherForecast:
         """
         Get current local weather forecast
 

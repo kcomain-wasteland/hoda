@@ -15,7 +15,7 @@
 #  You should have received a copy of the GNU Lesser General Public License
 #  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from .params import LANG
+from .params import Language
 from .payloads import LocalWeatherForecastPayload
 
-__all__ = ['LANG', 'LocalWeatherForecastPayload']
+__all__ = ["Language", "LocalWeatherForecastPayload"]

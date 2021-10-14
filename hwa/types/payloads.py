@@ -19,8 +19,10 @@ import typing
 
 
 class LocalWeatherForecastPayload(typing.TypedDict):
-    generalSituation: str
-    tcInfo: str
-    fireDangerWarning: str
-    forecastPeriod: str  # why this?????? why not a range of time at least not some tangible text that i have to do natural language processing
-    forecastDesc: str
+    generalSituation: str  #: General weather situation
+    tcInfo: str  #: Tropical cyclone information
+    fireDangerWarning: str  #: Fire danger warning message
+    forecastPeriod: str  #: Forecast period
+    forecastDesc: str  #: Forecast description
+    outlook: str  #: Outlook
+    updateTime: str  #: Last update time in ISO format

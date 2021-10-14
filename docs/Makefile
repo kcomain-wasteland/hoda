@@ -17,7 +17,7 @@ help:
 serve:
 	#sphinx-autobuild "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 	#sphinx-autobuild ../ "$(BUILDDIR)" $(SPHINXOPTS) $(O)
-	sphinx-autobuild "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O) --watch ../hwa --re-ignore "*.kate-swp"
+	sphinx-autobuild "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O) --watch ../hwa #--re-ignore "*.kate-swp"
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
