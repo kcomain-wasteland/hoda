@@ -30,7 +30,6 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
     'sphinx.ext.coverage',
-    'sphinx.ext.duration',
     'sphinx.ext.viewcode',
     'sphinx.ext.autosectionlabel',
     # 'sphinx.ext.napoleon',

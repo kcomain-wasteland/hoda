@@ -3,23 +3,21 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to dpextras' documentation!
-====================================
+Welcome to hwa's documentation!
+================================
 
-.. image:: https://readthedocs.org/projects/dpextras/badge/?version=latest
-    :target: http://dpextras.kcomain.dev/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/hwa/badge/?version=latest
+    :target: http://hwa.kcomain.dev/en/latest/?badge=latest
     :alt: Documentation Status
 
-.. image:: https://github.com/kcomain/dpextras/actions/workflows/codeql-analysis.yml/badge.svg
-    :target: https://github.com/kcomain/dpextras/actions/workflows/codeql-analysis.yml
+.. image:: https://github.com/kcomain-wasteland/hwa/actions/workflows/codeql-analysis.yml/badge.svg
+    :target: https://github.com/kcomain-wasteland/hwa/actions/workflows/codeql-analysis.yml
     :alt: CodeQL
 
-dpextras, the useless library that does nothing apart from being there (yes this is discouraging you to use it)
+*pronounced h-w-a*
 
-.. note::
-    This package and this document is still in works.
-
-    As of 2021-02-25, this package is unusable because there's no actual written code.
+hwa is a simple wrapper of the Hong Kong Observatory's Open Data API
+(`reference <https://www.hko.gov.hk/en/weatherAPI/doc/files/HKO_Open_Data_API_Documentation.pdf>`_)
 
 Guides
 -------
@@ -28,7 +26,6 @@ Guides
     :maxdepth: 3
     :titlesonly:
 
-    guides/index.rst
     examples/index.rst
 
 Other documents
@@ -45,7 +42,8 @@ Other documents
     :caption: Development
     :hidden:
 
-    GitHub Repository <https://github.com/kcomain/dpextras>
+    Gitea Repository (internal for now) <https://git.kcomain.dev/kcomain/hwa>
+    GitHub Repository <https://github.com/kcomain-wasteland/hwa>
 
 Indices and tables
 -------------------
