@@ -18,28 +18,19 @@
 import requests
 
 
-class Weather:
+class OpenData:
     """
-    This is a wrapper for the Weather Information API as described in the
+    This is a wrapper for the Open Data API as described in the
     HKO Open Data API Documentation.
 
     As the endpoint support multiple languages, you may specify the desired language with
     the lang parameter on class init, so that you can use the same language for subsequent
-    requests without having to specify the language.
-
-    The default language is English.
+    requests without having to specify the language. The default language currently is English.
 
     :param lang: Language
     """
-    BASE: str = "https://data.weather.gov.hk/weatherAPI/opendata/weather.php"
+    BASE: str = "https://data.weather.gov.hk/weatherAPI/opendata/opendata.php"
 
     def __init__(self, lang="en") -> None:
         self.lang = lang
         return
-
-    def forecast_local(self, lang=None):
-        """
-        Get current local weather forecast
-
-        :param lang: Language
-        """
