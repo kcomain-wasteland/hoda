@@ -15,23 +15,12 @@
 #  You should have received a copy of the GNU Lesser General Public License
 #  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-import requests
+import typing
 
 
-class OpenData:
-    """
-    This is a wrapper for the Open Data API as described in the
-    HKO Open Data API Documentation.
-
-    As the endpoint support multiple languages, you may specify the desired language with
-    the lang parameter on class init, so that you can use the same language for subsequent
-    requests without having to specify the language. The default language currently is English.
-
-    :param lang: Language
-    """
-
-    BASE: str = "https://data.weather.gov.hk/weatherAPI/opendata/opendata.php"
-
-    def __init__(self, lang="en") -> None:
-        self.lang = lang
-        return
+class LocalWeatherForecastPayload(typing.TypedDict):
+    generalSituation: str
+    tcInfo: str
+    fireDangerWarning: str
+    forecastPeriod: str  # why this?????? why not a range of time at least not some tangible text that i have to do natural language processing
+    forecastDesc: str

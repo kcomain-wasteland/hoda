@@ -10,12 +10,13 @@
 #  This program is distributed in the hope that it will be useful,
 #  but WITHOUT ANY WARRANTY; without even the implied warranty of
 #  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#  GNU General Public License for more details.
+#  GNU LesserGeneral Public License for more details.
 #
 #  You should have received a copy of the GNU Lesser General Public License
 #  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import requests
+import typing
 
 
 class Weather:
@@ -31,9 +32,10 @@ class Weather:
 
     :param lang: Language
     """
+
     BASE: str = "https://data.weather.gov.hk/weatherAPI/opendata/weather.php"
 
-    def __init__(self, lang="en") -> None:
+    def __init__(self, lang: typing.Optional[str] = "en") -> None:
         self.lang = lang
         return
 

@@ -15,16 +15,16 @@ def main():
         try:
             with open(item) as f:
                 data = json.load(f)
-                print(f'loaded {item}')
+                print(f"loaded {item}")
                 it = time.perf_counter_ns()
 
-            with open(item, 'w') as f:
+            with open(item, "w") as f:
                 json.dump(data, f, indent=4)
-                print(f'formatted {item} in {time.perf_counter_ns() - it} nanoseconds')
+                print(f"formatted {item} in {time.perf_counter_ns() - it} nanoseconds")
         except json.JSONDecodeError:
             print(f"Error while trying to format {item}: JSON Decode Error. Skipped.")
     return 0
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     sys.exit(main())
