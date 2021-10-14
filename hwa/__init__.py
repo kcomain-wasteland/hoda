@@ -15,7 +15,7 @@
 #  You should have received a copy of the GNU Lesser General Public License
 #  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-__version__ = (0, 0, 1)
+__version__ = (0, 1, 0)
 __ua__ = f"hwa/{'.'.join([str(i) for i in __version__])} (https://github.com/kcomain-wasteland/hwa)"
 
 from .earthquake import Earthquake
