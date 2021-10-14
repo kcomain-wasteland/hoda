@@ -141,7 +141,7 @@ cython_debug/
 # Editor configuration
 .idea/
 .vs/
-.vsc/
+.vscode/
 
 # KDE
 .kdev4/
