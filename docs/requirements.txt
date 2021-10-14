@@ -1,0 +1,5 @@
+# rtd poetry support when
+Sphinx
+sphinx-copybutton
+furo
+sphinx-autobuild
