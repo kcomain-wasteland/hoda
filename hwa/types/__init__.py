@@ -18,15 +18,17 @@
 from .params import Language
 from .payloads import (
     SimpleValue,
-    LocalWeatherForecastPayload, 
+    LocalWeatherForecastPayload,
     NineDayWeatherForecastPayload,
-    SoilTempPayload
+    ForecastPayload,
+    SoilTempPayload,
 )
 
 __all__ = [
-    "Language", 
+    "Language",
     "LocalWeatherForecastPayload",
     "NineDayWeatherForecastPayload",
     "SoilTempPayload",
+    "ForecastPayload",
     "SimpleValue",
 ]
