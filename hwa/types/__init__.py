@@ -16,6 +16,17 @@
 #  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 from .params import Language
-from .payloads import LocalWeatherForecastPayload
+from .payloads import (
+    SimpleValue,
+    LocalWeatherForecastPayload, 
+    NineDayWeatherForecastPayload,
+    SoilTempPayload
+)
 
-__all__ = ["Language", "LocalWeatherForecastPayload"]
+__all__ = [
+    "Language", 
+    "LocalWeatherForecastPayload",
+    "NineDayWeatherForecastPayload",
+    "SoilTempPayload",
+    "SimpleValue",
+]

@@ -19,8 +19,7 @@ from ..types import LocalWeatherForecastPayload
 
 
 class LocalWeatherForecast:
-    """Data model containing data of the current local weather forecast.
-    """
+    """Data model containing data of the current local weather forecast."""
 
     def __init__(self, payload: LocalWeatherForecastPayload):
         pass
