@@ -49,6 +49,19 @@ class SoilTempPayload(typing.TypedDict):
     depth: SimpleValue  #: Depth of the measurement
 
 
+class SeaTempPayload(typing.TypedDict):
+    """JSON Payload of an item in the ``seaTemp`` list returned by weather forecasts and more.
+
+    It is most likely an error in the weather API as seaTemp, soilTemp and generalSituation
+    shouldn't be in the 9 day forecast result.
+    """
+
+    place: str  #: Location of the measurement facility
+    value: float  #: Temperature of the measured water
+    unit: str  #: Unit of ``value``
+    recordTime: str  #: Time of measurement in ISO format
+
+
 class ForecastPayload(typing.TypedDict):
     """JSON Payload of a forecast item
 
@@ -65,8 +78,7 @@ class ForecastPayload(typing.TypedDict):
     forecastMinrh: SimpleValue  #: Minimum relative humidity forecast
     ForecastIcon: int  #: weather icons defined at https://fwd.kcomain.dev/urPb
 
-    #: .. important:: Undocumented
-    #:     probability of significant rain, see https://fwd.kcomain.dev/hko-psr-post
+    #: .. important:: Undocumented probability of significant rain, see https://fwd.kcomain.dev/hko-psr-post
     PSR: str
 
 
@@ -79,3 +91,7 @@ class NineDayWeatherForecastPayload(typing.TypedDict):
     """
 
     generalSituation: str  #: General weather situation
+    weatherForecast: list[ForecastPayload]  #: The actual weather forecast information
+    updateTime: str  #: Last update time in ISO format
+    seaTemp: SeaTempPayload  #: *Current* sea temperature
+    soilTemp: list[SoilTempPayload]  #: *Current* soil temperature

@@ -16,4 +16,8 @@ docs-serve: dependencies
 	make serve --directory=docs
 
 clean:
-	find -type d -name __pycache__ -exec rm -vr {} \;
+	find -type d -name __pycache__ -exec rm -vr {} \; || true
+
+lint:
+	black . || true
+	mypy .

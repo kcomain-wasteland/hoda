@@ -1,8 +1,12 @@
 [tool.poetry]
 name = "hwa"
-version = "0.1.0"
-description = ""
+version = "0.1.0a0"
+description = "Wrapper of the HKO Open Data API"
+license = "LGPL-3.0-or-later"
 authors = ["Sophie Cheung <me@kcomain.dev>"]
+repository = "https://github.com/kcomain-wasteland/hwa"
+documentation = "https://hwa.rtfd.io"
+readme = "README.md"
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/kcomain/hwa/issues"
