@@ -8,7 +8,7 @@ authors = ["Sophie Cheung <me@kcomain.dev>"]
 "Bug Tracker" = "https://github.com/kcomain/hwa/issues"
 
 [tool.poetry.dependencies]
-python = ">=3.8"
+python = ">=3.8,<4"
 requests = "^2.26.0"
 aiohttp = {extras = ["speedups"], version = "^3.7.4", optional = true}
 smopy = {version = "^0.0.7", optional = true}
