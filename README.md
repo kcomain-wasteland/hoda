@@ -24,5 +24,8 @@ Before contributing, please note that
 
 More information in [CONTRIBUTING.md](./CONTRIBUTING.md)
 
+# Documentation
+https://hwa.soopy.moe
+
 ## License
 LGPL-3.0 or later
