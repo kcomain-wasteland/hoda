@@ -42,7 +42,7 @@ Other documents
     :caption: Development
     :hidden:
 
-    Gitea Repository <https://git.soopy.moe/kcomain/hwa>
+    Gitea Repository <https://git.soopy.moe/soopyc/hwa>
     GitHub Repository <https://github.com/kcomain-wasteland/hwa>
 
 Indices and tables
