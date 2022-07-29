@@ -1,7 +1,6 @@
 # hwa
-*pronounced h-w-a*
 
-This is a python wrapper for the HKO public open data API
+This is an asynchronous api wrapper for the HKO public open data API for python.
 ([reference](https://www.hko.gov.hk/en/weatherAPI/doc/files/HKO_Open_Data_API_Documentation.pdf))
 
 ## Usage
@@ -14,18 +13,16 @@ poetry add hwa
 pip install hwa
 ```
 
+# Documentation
+https://hwa.soopy.moe
+
 ## Development/Contributing
 Before contributing, please note that
 - your contributions will be licensed under the lesser gpl 3.0.
 - you have to follow the code of conduct or be prepared to get punted by me.
-- that's all
-- there's nothing more
-- do you want something?
+- that is all
 
 More information in [CONTRIBUTING.md](./CONTRIBUTING.md)
-
-# Documentation
-https://hwa.soopy.moe
 
 ## License
 LGPL-3.0 or later
