@@ -18,8 +18,8 @@ sys.path.insert(0, os.path.abspath("../../"))
 # -- Project information -----------------------------------------------------
 
 project = "hwa"
-copyright = "2021, kcomain"
-author = "kcomain"
+copyright = "2021-2022, soopyc"
+author = "soopyc"
 
 
 # -- General configuration ---------------------------------------------------
@@ -52,24 +52,23 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "furo"
+html_theme = "sphinx_book_theme"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ["_static"]
+# html_static_path = ["_static"]
 
 # autosummary_generate = True
 autosectionlabel_prefix_document = True
 
 extlinks = {
-    "issue": ("https://git.kcomain.dev/kcomain/hwa/issues/%s", "ISSUE-"),
+    "issue": ("https://koakuma.soopy.moe/sophie/hwa/issues/%s", "ISSUE-"),
 }
 
 # Links used for cross-referencing stuff in other documentation
 intersphinx_mapping = {
     "py": ("https://docs.python.org/3", None),
     "aio": ("https://docs.aiohttp.org/en/stable/", None),
-    "dpy": ("https://discordpy.readthedocs.io/en/stable/", None),
     # 'req': ('http://docs.python-requests.org/en/latest/', 'requests.inv')
 }

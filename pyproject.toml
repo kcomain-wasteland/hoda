@@ -2,33 +2,31 @@
 name = "hwa"
 version = "0.1.0"
 description = ""
-authors = ["Sophie Cheung <me@kcomain.dev>"]
+authors = ["Sophie Cheung <me@soopy.moe>"]
 
 [tool.poetry.urls]
-"Bug Tracker" = "https://github.com/kcomain/hwa/issues"
+"Bug Tracker" = "https://koakuma.soopy.moe/sophie/hwa/issues"
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4"
-requests = "^2.26.0"
-aiohttp = {extras = ["speedups"], version = "^3.7.4", optional = true}
+aiohttp = {extras = ["speedups"], version = "^3.7.4"}
 smopy = {version = "^0.0.7", optional = true}
 
 [tool.poetry.dev-dependencies]
+# docs
 Sphinx = "^4.2.0"
 sphinx-copybutton = "^0.4.0"
-furo = "^2021.10.9"
 sphinx-autobuild = "^2021.3.14"
+
 mypy = "^0.910"
 
-types-requests = {version = "~2.25.11"}
 pytest = {version = "^6.2.5"}
-pytest-xprocess = {version = "^0.18.1"}
 Flask = {version = "^2.0.2"}
 coverage = "^6.0.2"
+sphinx-book-theme = "^0.3.3"
 
 [tool.poetry.extras]
 map = ['smopy']
-async = ['aiohttp']
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
@@ -36,7 +34,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.black]
 line-length = 120
-target-version = ['py38']
+target-version = ['py310']
 
 [tool.pytest.ini_options]
 filterwarnings = [
