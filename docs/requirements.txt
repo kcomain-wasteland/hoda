@@ -1,5 +1,5 @@
 # rtd poetry support when
 Sphinx
 sphinx-copybutton
-furo
+sphinx-book-theme
 sphinx-autobuild
