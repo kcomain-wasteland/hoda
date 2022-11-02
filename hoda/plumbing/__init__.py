@@ -1,6 +1,7 @@
-#  Copyright (c) 2021 kcomain
+# hoda.plumbing: lower level api wrapper
+#  Copyright (c) 2021-2022 soopyc
 #
-#  This file is part of hwa.
+#  This file is part of hoda.
 #
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU Lesser General Public License as published
@@ -15,11 +16,9 @@
 #  You should have received a copy of the GNU Lesser General Public License
 #  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-__version__ = (0, 1, 0)
-__ua__ = f"hwa/{'.'.join([str(i) for i in __version__])} (https://github.com/kcomain-wasteland/hwa)"
-__all__ = ["Earthquake", "Weather", "OpenData"]
+# this should be the part of the lib that actually interacts with aiohttp and such. if not, i have failed.
 
-
-from .earthquake import Earthquake
 from .weather import Weather
-from .od import OpenData
+from . import http
+
+__all__ = ["Weather", "http"]

@@ -1,4 +1,4 @@
-# hwa
+# hoda
 
 This is an asynchronous api wrapper for the HKO public open data API for python.
 ([reference](https://www.hko.gov.hk/en/weatherAPI/doc/files/HKO_Open_Data_API_Documentation.pdf))
@@ -8,13 +8,13 @@ Basic requirements: Python >= 3.8
 
 First, install the package
 ```bash
-poetry add hwa
+poetry add hoda
 # or
-pip install hwa
+pip install hoda
 ```
 
 # Documentation
-https://hwa.soopy.moe
+https://hoda.soopy.moe
 
 ## Development/Contributing
 Before contributing, please note that

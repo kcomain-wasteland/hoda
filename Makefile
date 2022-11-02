@@ -13,6 +13,10 @@ check: dependencies
 	coverage --version
 	coverage run -m pytest .
 
+coverage: check
+	coverage report -m
+	coverage html --show-contexts
+
 docs: dependencies
 	make html --directory=docs
 
@@ -30,4 +34,4 @@ distclean: clean
 
 lint:
 	black . || true
-	mypy hwa
+	mypy hoda

@@ -1,6 +1,6 @@
-Frequently asked questions
-===========================
-*also: frequently questioned answers*
+Frequently envisioned questions
+================================
+*also: frequently questioned answers, faq*
 
 This document contain questions that I think people would ask.
 
@@ -25,7 +25,7 @@ You can read more about them in the :mod:`typing` docs.
 
 My question isn't documented here!
 -----------------------------------
-You can contact me on Discord and other methods. Contact methods are listed on `this page <https://kcomain.github.io>`_
+You can contact me on Discord and other methods. Contact methods are listed on `this page <https://soopyc.github.io>`_
 
 This package sucks!
 --------------------

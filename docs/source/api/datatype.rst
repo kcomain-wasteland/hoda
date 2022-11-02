@@ -9,5 +9,5 @@ This page describes internal datatypes.
     
     This section is for reference only. No/limited support will be provided.
 
-.. automodule:: hwa.types
+.. automodule:: hoda.types
     :members:

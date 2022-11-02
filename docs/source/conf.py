@@ -17,9 +17,10 @@ sys.path.insert(0, os.path.abspath("../../"))
 
 # -- Project information -----------------------------------------------------
 
-project = "hwa"
+project = "hoda"
 copyright = "2021-2022, soopyc"
 author = "soopyc"
+html_title = "HKO OpenData API"
 
 
 # -- General configuration ---------------------------------------------------
@@ -63,7 +64,7 @@ html_theme = "sphinx_book_theme"
 autosectionlabel_prefix_document = True
 
 extlinks = {
-    "issue": ("https://koakuma.soopy.moe/sophie/hwa/issues/%s", "ISSUE-"),
+    "issue": ("https://patchy.soopy.moe/mizuki/hoda/issues/%s", "ISSUE-"),
 }
 
 # Links used for cross-referencing stuff in other documentation

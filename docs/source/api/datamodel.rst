@@ -11,5 +11,5 @@ This page describes data models used by this library.
     Classes in this module are immutable. You should not initialize them
     by yourself.
 
-.. automodule:: hwa.models
+.. automodule:: hoda.models
     :members:

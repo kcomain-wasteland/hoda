@@ -1,6 +1,7 @@
-#  Copyright (c) 2021 kcomain
+# hoda: hoda opendata api wrapper
+#  Copyright (c) 2021-2022 soopyc
 #
-#  This file is part of hwa.
+#  This file is part of hoda.
 #
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU Lesser General Public License as published
@@ -15,7 +16,10 @@
 #  You should have received a copy of the GNU Lesser General Public License
 #  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from .params import Language
-from .payloads import LocalWeatherForecastPayload
+__version__ = (0, 1, 0)
+__ua__ = f"hoda/{'.'.join([str(i) for i in __version__])} (https://patchy.soopy.moe/mizuki/hoda)"
+# __all__ = ["constants"]
 
-__all__ = ["Language", "LocalWeatherForecastPayload"]
+# from .earthquake import Earthquake
+# from .weather import Weather
+# from .od import OpenData

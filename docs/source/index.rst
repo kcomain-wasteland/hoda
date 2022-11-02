@@ -3,21 +3,45 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to hwa's documentation!
-================================
+HKO Weather (async) API wrapper
+=======================================
 
 .. image:: https://readthedocs.org/projects/hwa/badge/?version=latest
-    :target: http://hwa.kcomain.dev/en/latest/?badge=latest
+    :target: http://hoda.soopy.moe/en/latest/?badge=latest
     :alt: Documentation Status
 
-.. image:: https://github.com/kcomain-wasteland/hwa/actions/workflows/codeql-analysis.yml/badge.svg
-    :target: https://github.com/kcomain-wasteland/hwa/actions/workflows/codeql-analysis.yml
-    :alt: CodeQL
+.. .. image:: https://github.com/kcomain-wasteland/hwa/actions/workflows/codeql-analysis.yml/badge.svg
+..     :target: https://github.com/kcomain-wasteland/hwa/actions/workflows/codeql-analysis.yml
+..     :alt: CodeQL
+.. doesn't actually exist anymore lol
 
-*pronounced h-w-a*
-
-hwa is a simple wrapper of the Hong Kong Observatory's Open Data API
+hoda is a wrapper of the Hong Kong Observatory's Open Data API
 (`reference <https://www.hko.gov.hk/en/weatherAPI/doc/files/HKO_Open_Data_API_Documentation.pdf>`_)
+
+Currently, this wrapper targets ``v1.7`` of the api, last updated ``May 2022``
+
+Installation
+-------------
+If you use ``pip``, you can do
+
+.. code:: bash
+
+    $ pip install hoda
+    # alternatively, if you want speedups
+    # pip install hoda[speedups]
+
+If you use ``poetry`` (recommended)
+
+.. code:: bash
+
+    poetry add hoda
+    # alternatively if you want speedups
+    # poetry add hoda -E speedups
+
+Extras
+~~~~~~~
+- ``speedups``: dependencies for speedups
+- ``map``: dependencies for map plotting
 
 Guides
 -------
@@ -42,8 +66,8 @@ Other documents
     :caption: Development
     :hidden:
 
-    Gitea Repository <https://git.soopy.moe/soopyc/hwa>
-    GitHub Repository <https://github.com/kcomain-wasteland/hwa>
+    Main Repository <https://patchy.soopy.moehoda>
+    GitHub Repository <https://github.com/kcomain-wasteland/hoda>
 
 Indices and tables
 -------------------
