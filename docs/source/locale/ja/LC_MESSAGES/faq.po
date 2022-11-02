@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2022, soopyc
+# This file is distributed under the same license as the hoda package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hoda \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-02 22:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/faq.rst:2
+msgid "Frequently envisioned questions"
+msgstr ""
+
+#: ../../source/faq.rst:3
+msgid "*also: frequently questioned answers, faq*"
+msgstr ""
+
+#: ../../source/faq.rst:5
+msgid "This document contain questions that I think people would ask."
+msgstr ""
+
+#: ../../source/faq.rst:8
+msgid "What are the ``Optional`` and ``Union`` types?"
+msgstr ""
+
+#: ../../source/faq.rst:9
+msgid ""
+"They are helper types essentially. :class:`typing.Optional` means that "
+"that method or function returns or accepts either the item(s) in ``[]`` s"
+" or :data:`None`."
+msgstr ""
+
+#: ../../source/faq.rst:12
+msgid ""
+":class:`typing.Union` means that that method accepts or returns types "
+"listed in the ``[]`` s"
+msgstr ""
+
+#: ../../source/faq.rst:14
+msgid "Example:"
+msgstr ""
+
+#: ../../source/faq.rst:22
+msgid "means one of ``float`` or ``int`` or their subclasses is required."
+msgstr ""
+
+#: ../../source/faq.rst:24
+msgid "You can read more about them in the :mod:`typing` docs."
+msgstr ""
+
+#: ../../source/faq.rst:27
+msgid "My question isn't documented here!"
+msgstr ""
+
+#: ../../source/faq.rst:28
+msgid ""
+"You can contact me on Discord and other methods. Contact methods are "
+"listed on `this page <https://soopyc.github.io>`_"
+msgstr ""
+
+#: ../../source/faq.rst:31
+msgid "This package sucks!"
+msgstr ""
+
+#: ../../source/faq.rst:32
+msgid "I'm sorry."
+msgstr ""
+

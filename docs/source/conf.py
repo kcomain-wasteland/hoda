@@ -20,7 +20,7 @@ sys.path.insert(0, os.path.abspath("../../"))
 project = "hoda"
 copyright = "2021-2022, soopyc"
 author = "soopyc"
-html_title = "HKO OpenData API"
+html_title = "hoda"
 
 
 # -- General configuration ---------------------------------------------------
@@ -47,6 +47,8 @@ templates_path = ["_templates"]
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
+locale_dirs = ['locale/']
+gettext_compact = False
 
 # -- Options for HTML output -------------------------------------------------
 

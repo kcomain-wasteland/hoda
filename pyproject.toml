@@ -31,6 +31,7 @@ coverage = "^6.0.2"
 sphinx-book-theme = "^0.3.3"
 pytest-asyncio = "^0.19.0"
 black = "^22.6.0"
+sphinx-intl = "^2.0.1"
 
 [tool.poetry.extras]
 map = ['smopy']

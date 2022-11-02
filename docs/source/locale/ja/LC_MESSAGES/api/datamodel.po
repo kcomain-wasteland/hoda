@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021-2022, soopyc
+# This file is distributed under the same license as the hoda package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hoda \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-02 22:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/api/datamodel.rst:3
+msgid "Data models"
+msgstr ""
+
+#: ../../source/api/datamodel.rst:5
+msgid "This page describes data models used by this library."
+msgstr ""
+
+#: ../../source/api/datamodel.rst:8
+msgid "This section is still in works"
+msgstr ""
+
+#: ../../source/api/datamodel.rst:11
+msgid ""
+"Classes in this module are immutable. You should not initialize them by "
+"yourself."
+msgstr ""
+
