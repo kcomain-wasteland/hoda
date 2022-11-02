@@ -31,7 +31,7 @@ class Weather:
         if not session:
             self.session = ...
 
-    def weather(self, language: constants.LANGUAGE = None):
+    def weather(self, language: constants.LANGUAGE = 'en'):
         """Weather endpoint"""
         ...
 

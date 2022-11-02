@@ -25,8 +25,8 @@ docs-serve: dependencies
 
 docs-i18n-update: dependencies
 	$(MAKE) gettext --directory=docs
-	# To generate new languages, append -l <LANG> to the following command,
-	sphinx-intl update -p docs/build/gettext -d docs/source/locale
+	# To generate new languages, append -l <LANG> to the following command.
+	sphinx-intl update -p docs/build/gettext -d docs/locale
 
 clean:
 	rm -vfr dist/
