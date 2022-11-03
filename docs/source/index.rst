@@ -6,9 +6,9 @@
 HKO Weather (async) API wrapper
 =======================================
 
-.. image:: https://readthedocs.org/projects/hwa/badge/?version=latest
+.. image:: https://readthedocs.org/projects/hoda/badge/?version=latest
     :target: http://hoda.soopy.moe/en/latest/?badge=latest
-    :alt: Documentation Status
+    :alt: Latest documentation status
 
 .. .. image:: https://github.com/kcomain-wasteland/hwa/actions/workflows/codeql-analysis.yml/badge.svg
 ..     :target: https://github.com/kcomain-wasteland/hwa/actions/workflows/codeql-analysis.yml
