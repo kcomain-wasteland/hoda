@@ -4,7 +4,7 @@ This is an asynchronous api wrapper for the HKO public open data API for python.
 ([reference](https://www.hko.gov.hk/en/weatherAPI/doc/files/HKO_Open_Data_API_Documentation.pdf))
 
 ## Usage
-Basic requirements: Python >= 3.8
+Basic requirements: Python >= 3.11
 
 First, install the package
 ```bash
