@@ -34,10 +34,8 @@ extensions = [
     "sphinx.ext.coverage",
     "sphinx.ext.viewcode",
     "sphinx.ext.autosectionlabel",
-    # 'sphinx.ext.napoleon',
     # 'sphinx.ext.autosummary',
     "sphinx_copybutton",
-    "enum_tools.autoenum",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -78,5 +76,4 @@ extlinks = {
 intersphinx_mapping = {
     "py": ("https://docs.python.org/3", None),
     "aio": ("https://docs.aiohttp.org/en/stable/", None),
-    # 'req': ('http://docs.python-requests.org/en/latest/', 'requests.inv')
 }
