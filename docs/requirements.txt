@@ -4,3 +4,4 @@ Sphinx
 sphinx-copybutton
 sphinx-book-theme
 sphinx-autobuild
+enum-tools[sphinx]
