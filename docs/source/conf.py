@@ -37,6 +37,7 @@ extensions = [
     # 'sphinx.ext.napoleon',
     # 'sphinx.ext.autosummary',
     "sphinx_copybutton",
+    "enum_tools.autoenum",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -47,8 +48,12 @@ templates_path = ["_templates"]
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
-locale_dirs = ['../locale/']
-gettext_compact = 'hoda'
+locale_dirs = ["../locale/"]
+gettext_compact = "hoda"
+
+# -- Options for Sphinx AutoDoc ----------------------------------------------
+autodoc_default_options = {"special-members": "__init__"}
+autodoc_class_signature = "separated"
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -66,7 +71,7 @@ html_theme = "sphinx_book_theme"
 autosectionlabel_prefix_document = True
 
 extlinks = {
-    "issue": ("https://patchy.soopy.moe/mizuki/hoda/issues/%s", "ISSUE-"),
+    "issue": ("https://patchy.soopy.moe/mizuki/hoda/issues/%s", "BUG-"),
 }
 
 # Links used for cross-referencing stuff in other documentation
