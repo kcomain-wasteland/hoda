@@ -18,7 +18,7 @@ HKO Weather (async) API wrapper
 hoda is a wrapper of the Hong Kong Observatory's Open Data API
 (`reference <https://www.hko.gov.hk/en/weatherAPI/doc/files/HKO_Open_Data_API_Documentation.pdf>`_)
 
-Currently, this wrapper targets ``v1.7`` of the api, last updated ``May 2022``
+Currently, this wrapper targets ``v1.7`` of the api, last updated ``May 2022`` (change number ``10``)
 
 Installation
 -------------
@@ -66,7 +66,7 @@ Other documents
     :caption: Development
     :hidden:
 
-    Main Repository <https://patchy.soopy.moehoda>
+    Main Repository <https://patchy.soopy.moe/mizuki/hoda>
     GitHub Repository <https://github.com/kcomain-wasteland/hoda>
 
 Indices and tables
