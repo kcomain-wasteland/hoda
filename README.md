@@ -13,7 +13,7 @@ poetry add hoda
 pip install hoda
 ```
 
-# Documentation
+# Documentation [![Translation status](https://akyuu.soopy.moe/widgets/hoda/-/hoda-docs/svg-badge.svg)](https://akyuu.soopy.moe/projects/hoda/hoda-docs/)
 https://hoda.soopy.moe
 
 ## Development/Contributing
