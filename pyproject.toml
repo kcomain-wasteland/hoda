@@ -11,7 +11,7 @@ homepage = "https://patchy.soopy.moe/mizuki/hoda"
 [tool.poetry.dependencies]
 python = ">=3.11,<4"
 aiohttp = {version = "^3.7.4"}
-smopy = {version = "^0.0.7", optional = true}
+smopy = {version = "^0.0.8", optional = true}
 aiodns = {version = ">= 1.1", optional = true}
 Brotli = {version = "^1.0.9", optional = true}
 cchardet = {version = "^2.1.7", optional = true}
