@@ -4,7 +4,7 @@ pipeline:
         commands:
             - pip3 install pipx
             - pipx install poetry
-            - pipx ensurepath
+            - export PATH="/root/.local/bin:$PATH"
             - make dependencies
             # test stuff here
 
