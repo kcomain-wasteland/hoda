@@ -1,6 +1,6 @@
 pipeline:
     build:
-        image: python
+        image: python:3.11
         commands:
             - pip3 install pipx
             - pipx install poetry
