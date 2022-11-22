@@ -1,0 +1,10 @@
+pipeline:
+    build:
+        image: python
+        commands:
+            - pip3 install pipx
+            - pipx install poetry
+            - poetry install
+
+depends_on:
+    - build
