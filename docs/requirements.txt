@@ -2,6 +2,5 @@
 # note: if you are looking to translate, you should use pyproject.toml instead 
 Sphinx
 sphinx-copybutton
-sphinx-book-theme
-sphinx-autobuild
-enum-tools[sphinx]
+furo
+sphinxext-opengraph
