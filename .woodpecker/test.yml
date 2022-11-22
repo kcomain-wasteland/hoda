@@ -4,7 +4,9 @@ pipeline:
         commands:
             - pip3 install pipx
             - pipx install poetry
-            - poetry install
+            - pipx ensurepath
+            - make dependencies
+            # test stuff here
 
 depends_on:
     - build

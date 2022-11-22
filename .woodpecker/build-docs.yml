@@ -3,4 +3,5 @@ pipeline:
         image: python
         commands:
             - cd docs
+            - pip3 install -r requirements.txt
             - make html
