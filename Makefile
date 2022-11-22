@@ -1,5 +1,4 @@
-
-.PHONY: all package docs docs-serve check
+.PHONY: all package docs docs-serve check clean
 
 all: dependencies package
 

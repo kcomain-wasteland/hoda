@@ -14,13 +14,13 @@ This plumbing module is basically a thin wrapper against the opendata API.
 
     You should use the higher level wrappers instead of using this directly, since the function signatures and
     returned values will be at least more stable than this. If there are features not provided by the higher level
-    modules, please file a feature request over at `the main repo. <https://koakuma.soopy.moe/sophie/hoda>`_
+    modules, please file a feature request over at the main repo. (link in sidebar)
 
 
 Table of contents
 ------------------
 
 .. toctree::
-    plumbing/constants.rst
-    plumbing/weather.rst
-    plumbing/internal.rst
+    ./constants.rst
+    ./weather.rst
+    ./internal.rst
