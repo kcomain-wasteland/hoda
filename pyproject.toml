@@ -19,8 +19,8 @@ ujson = {version = "^5.4.0", optional = true}
 
 [tool.poetry.dev-dependencies]
 # docs
-Sphinx = "^4.2.0"
-sphinx-copybutton = "^0.5.0"
+Sphinx = "^5.3.0"
+sphinx-copybutton = "^0.4.0"
 sphinx-autobuild = "^2021.3.14"
 
 mypy = "^0.910"
@@ -28,10 +28,11 @@ mypy = "^0.910"
 pytest = "^7.2.0"
 Flask = {version = "^2.0.2"}
 coverage = "^6.0.2"
-sphinx-book-theme = "^0.3.3"
+sphinx-book-theme = {git = "https://github.com/executablebooks/sphinx-book-theme", rev = "099f655a0760352ba88ebd60650ba9c8841fa3fb"}
 pytest-asyncio = "^0.19.0"
 black = "^22.6.0"
 sphinx-intl = "^2.0.1"
+ipython = "^8.6.0"
 
 [tool.poetry.extras]
 map = ['smopy']
