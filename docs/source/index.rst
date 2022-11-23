@@ -7,13 +7,16 @@ HKO Weather (async) API wrapper
 =======================================
 
 .. image:: https://readthedocs.org/projects/hoda/badge/?version=latest
-    :target: http://hoda.soopy.moe/en/latest/?badge=latest
+    :target: https://hoda.soopy.moe/en/latest/?badge=latest
     :alt: Latest documentation status
 
-.. .. image:: https://github.com/kcomain-wasteland/hwa/actions/workflows/codeql-analysis.yml/badge.svg
-..     :target: https://github.com/kcomain-wasteland/hwa/actions/workflows/codeql-analysis.yml
-..     :alt: CodeQL
-.. doesn't actually exist anymore lol
+.. image:: https://akyuu.soopy.moe/widgets/hoda/-/hoda-docs/svg-badge.svg
+    :target: https://akyuu.soopy.moe/projects/hoda/hoda-docs/
+    :alt: Docs translation status
+
+.. image:: https://ci.soopy.moe/api/badges/mizuki/hoda/status.svg
+    :target: https://ci.soopy.moe/mizuki/hoda
+    :alt: CI build and test status
 
 hoda is a wrapper of the Hong Kong Observatory's Open Data API
 (`reference <https://www.hko.gov.hk/en/weatherAPI/doc/files/HKO_Open_Data_API_Documentation.pdf>`_)
