@@ -9,4 +9,4 @@ Table of Contents
    :titlesonly:
    :maxdepth: 1
 
-   api/plumbing/*
+   api/plumbing.rst

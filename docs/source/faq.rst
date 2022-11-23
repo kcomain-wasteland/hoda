@@ -1,6 +1,6 @@
 Frequently envisioned questions
 ================================
-*also: frequently questioned answers, faq*
+*also: frequently questioned answers*
 
 This document contain questions that I think people would ask.
 
@@ -25,8 +25,4 @@ You can read more about them in the :mod:`typing` docs.
 
 My question isn't documented here!
 -----------------------------------
-You can contact me on Discord and other methods. Contact methods are listed on `this page <https://soopyc.github.io>`_
-
-This package sucks!
---------------------
-I'm sorry.
+You can contact me on `Matrix <https://matrix.to/#/@sophie:nue.soopy.moe>_` or with other methods listed on `this page <https://soopy.moe/about>`_
