@@ -216,7 +216,7 @@ name = "contourpy"
 version = "1.0.6"
 description = "Python library for calculating contours of 2D quadrilateral grids"
 category = "main"
-optional = true
+optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
@@ -245,7 +245,7 @@ name = "cycler"
 version = "0.11.0"
 description = "Composable style cycles"
 category = "main"
-optional = true
+optional = false
 python-versions = ">=3.6"
 
 [[package]]
@@ -280,7 +280,7 @@ name = "fonttools"
 version = "4.38.0"
 description = "Tools to manipulate font files"
 category = "main"
-optional = true
+optional = false
 python-versions = ">=3.7"
 
 [package.extras]
@@ -413,7 +413,7 @@ name = "kiwisolver"
 version = "1.4.4"
 description = "A fast implementation of the Cassowary constraint solver"
 category = "main"
-optional = true
+optional = false
 python-versions = ">=3.7"
 
 [[package]]
@@ -441,7 +441,7 @@ name = "matplotlib"
 version = "3.6.2"
 description = "Python plotting package"
 category = "main"
-optional = true
+optional = false
 python-versions = ">=3.8"
 
 [package.dependencies]
@@ -506,7 +506,7 @@ name = "numpy"
 version = "1.23.5"
 description = "NumPy is the fundamental package for array computing with Python."
 category = "main"
-optional = true
+optional = false
 python-versions = ">=3.8"
 
 [[package]]
@@ -564,7 +564,7 @@ name = "pillow"
 version = "9.3.0"
 description = "Python Imaging Library (Fork)"
 category = "main"
-optional = true
+optional = false
 python-versions = ">=3.7"
 
 [package.extras]
@@ -706,7 +706,7 @@ name = "python-dateutil"
 version = "2.8.2"
 description = "Extensions to the standard Python datetime module"
 category = "main"
-optional = true
+optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
 
 [package.dependencies]
@@ -756,7 +756,7 @@ name = "setuptools-scm"
 version = "7.0.5"
 description = "the blessed package to manage your versions by scm tags"
 category = "main"
-optional = true
+optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
@@ -977,13 +977,14 @@ test = ["pytest"]
 
 [[package]]
 name = "sphinxext-opengraph"
-version = "0.7.2"
+version = "0.8.1"
 description = "Sphinx Extension to enable OGP support"
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
+matplotlib = "*"
 sphinx = ">=4.0"
 
 [[package]]
@@ -1007,7 +1008,7 @@ name = "tomli"
 version = "2.0.1"
 description = "A lil' TOML parser"
 category = "main"
-optional = true
+optional = false
 python-versions = ">=3.7"
 
 [[package]]
@@ -1086,7 +1087,7 @@ speedups = ["aiodns", "Brotli", "cchardet", "ujson"]
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.11,<4"
-content-hash = "7537bea022f48c93e6845ab22679cd55e6234edd06e335582acfd2fd41f6d357"
+content-hash = "70af6c70fc224ba87bb1710b4963cd7f12ebc75d7cced4b3611c677e8235be7b"
 
 [metadata.files]
 aiodns = [
@@ -2230,8 +2231,8 @@ sphinxcontrib-serializinghtml = [
     {file = "sphinxcontrib_serializinghtml-1.1.5-py2.py3-none-any.whl", hash = "sha256:352a9a00ae864471d3a7ead8d7d79f5fc0b57e8b3f95e9867eb9eb28999b92fd"},
 ]
 sphinxext-opengraph = [
-    {file = "sphinxext-opengraph-0.7.2.tar.gz", hash = "sha256:85230ee14d50c97d9db457d4dc4c9f9ea08bc78e7dd6850d615e05705e5c2977"},
-    {file = "sphinxext_opengraph-0.7.2-py3-none-any.whl", hash = "sha256:7a33e13a1e1d6afa66744c24d1f5aabdde77ba70018403f9137a2d8dbe958c24"},
+    {file = "sphinxext-opengraph-0.8.1.tar.gz", hash = "sha256:4e698b907ef9582cd0106bd50807106677fdab4dc5c31040be17c9afb6e17880"},
+    {file = "sphinxext_opengraph-0.8.1-py3-none-any.whl", hash = "sha256:64fe993d4974c65202d1c8f1c986abb559154a814a6378f9d3aaf8c7c9bd62bc"},
 ]
 stack-data = [
     {file = "stack_data-0.6.1-py3-none-any.whl", hash = "sha256:960cb054d6a1b2fdd9cbd529e365b3c163e8dabf1272e02cfe36b58403cff5c6"},
