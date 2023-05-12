@@ -19,7 +19,7 @@ ujson = {version = "^5.4.0", optional = true}
 
 [tool.poetry.dev-dependencies]
 # docs
-Sphinx = "^6.0.0"
+Sphinx = "^7.0.0"
 sphinx-copybutton = "^0.5.0"
 sphinx-autobuild = "^2021.3.14"
 furo = "^2022.9.29"
